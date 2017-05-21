@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-from __future__ import division, print_function
+
 import numpy as np
 from .math import robust_center, robust_scale, wSTD
 from .QMI import QMI

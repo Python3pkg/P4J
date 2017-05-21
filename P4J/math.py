@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-from __future__ import division
+
 import numpy as np
 
 """
@@ -12,7 +12,7 @@ import numpy as np
 
 
 def weight_array(x, counts):
-    zipped = zip(x, counts)
+    zipped = list(zip(x, counts))
     weighted = []
     for i in zipped:
         for j in range(i[1]):
